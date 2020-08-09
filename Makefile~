@@ -23,4 +23,4 @@ tools.o:tools.c tools.h
 	$(CC) $(STD) $(FLAG) -c tools.c
 	
 clean:
-	rm -rf $(BIN) $(OBJ)
+	-rm -rf $(BIN) $(OBJ)

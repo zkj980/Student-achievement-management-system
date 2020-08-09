@@ -15,6 +15,9 @@ touch tools.h
 #界面显示
 touch interface_display.c
 touch interface_display.h
+#读写文件
+touch fileraw.c
+touch fileraw.h
 #校长信息
 touch information_is_stored/master.bin
 #在职教师信息
@@ -27,6 +30,10 @@ touch information_is_stored/enrolment.txt
 touch information_is_stored/dropout.txt
 #记录信息存储
 touch information_is_stored/recorded_information.bin
+#成绩录入
+touch type-in/grade.txt
+#学籍录入
+touch type-in/student_status.txt
 #编译脚本
 ls > Makefile
 #编写脚本
